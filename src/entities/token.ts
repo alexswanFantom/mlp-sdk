@@ -59,10 +59,10 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 export const WETH = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
-    '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
+    '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91',
     18,
-    'WWDOGE',
-    'Wrapped WDOGE'
+    'WETH',
+    'Wrapped ETH'
   ),
   [ChainId.BSCTESTNET]: new Token(
     ChainId.BSCTESTNET,
